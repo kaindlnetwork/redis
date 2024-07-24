@@ -1,4 +1,4 @@
-FROM redis:alpine
+FROM redis:7-alpine3.20
 
 # Add Healthcheck
 LABEL org.opencontainers.image.description This is the mautrix-whatapp Container Image provided by Kaindl Network with added Healthcheck and higher security
